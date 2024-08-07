@@ -1,0 +1,8 @@
+#campoRespostas {
+	background:#e0e6ed;
+	border:#ced8e1 1px solid;
+	width:380px;
+	margin:3px;
+	padding:5px;
+}
+.mao{ cursor:pointer; }

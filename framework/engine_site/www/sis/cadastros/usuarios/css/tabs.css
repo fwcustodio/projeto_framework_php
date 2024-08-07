@@ -1,0 +1,147 @@
+.bordaBox {
+	background: transparent;
+	width:100%;
+	display:none;
+}
+.bordaBox .b1, .bordaBox .b2, .bordaBox .b3, .bordaBox .b4, .bordaBox .b1b, .bordaBox .b2b, .bordaBox .b3b, .bordaBox .b4b {
+	display:block; overflow:hidden; font-size:1px;
+}
+.bordaBox .b1, .bordaBox .b2, .bordaBox .b3, .bordaBox .b1b, .bordaBox .b2b, .bordaBox .b3b {
+	height:1px;
+}
+.bordaBox .b2, .bordaBox .b3, .bordaBox .b4 {
+	background:#f8fbff; border-left:1px solid #99bbe8; border-right:1px solid #99bbe8;
+}
+.bordaBox .b1 {
+	margin:0 5px; 
+	background:#99bbe8;
+}
+.bordaBox .b2 {
+	margin:0 3px; 
+	border-width:0 2px;
+}
+.bordaBox .b3 {
+	margin:0 2px;
+}
+.bordaBox .b4 {
+	height:2px; 
+	margin:0 1px;
+}
+.bordaBox .bordaConteudo {
+	padding:5px;
+	display:block; 
+	background:#f8fbff; 
+	border-left:1px solid #99bbe8; 
+	border-right:1px solid #99bbe8;
+}
+
+.tabBox {
+	height:32px;
+	margin-left:5px;
+	float:left;
+	cursor:pointer;
+}
+.tabBox .b1 {
+	float:left; 
+	background:url(../figuras/tab1.gif) no-repeat; 
+	background-position:0 0;
+	width:8px;
+	height:100%;	
+}
+.tabBox .tabConteudo {
+	float:left; 
+	background:url(../figuras/tab3.gif) repeat-x;
+	background-position:0 0;
+	height:100%;
+	color:#2a4a67;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	vertical-align:middle;
+	line-height:32px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.tabBox .b2 {
+	float:left; 
+	background:url(../figuras/tab2.gif) no-repeat;
+	background-position:0 0;
+	width:8px; 
+	height:32px;
+}
+
+
+
+
+
+.tabBox2 {
+	height:32px;
+	margin-left:5px;
+	float:left;
+	cursor:pointer;
+}
+.tabBox2 .b1 {
+	float:left; 
+	background:url(../figuras/tab2_1.gif) no-repeat; 
+	background-position:0 0;
+	width:8px;
+	height:100%;	
+}
+.tabBox2 .tabConteudo {
+	float:left; 
+	background:url(../figuras/tab2_3.gif) repeat-x;
+	background-position:0 0;
+	height:100%;
+	color:#3c464e;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	vertical-align:middle;
+	line-height:32px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.tabBox2 .b2 {
+	float:left; 
+	background:url(../figuras/tab2_2.gif) no-repeat;
+	background-position:0 0;
+	width:8px; 
+	height:32px;
+}
+
+
+
+
+
+
+.tabBoxLog {
+	height:32px;
+	margin-left:5px;
+	float:left;
+	cursor:pointer;
+}
+.tabBoxLog .bLog1 {
+	float:left; 
+	background:url(../figuras/tab1.gif) no-repeat; 
+	background-position:0 0;
+	width:8px;
+	height:100%;	
+}
+.tabBoxLog .tabLogConteudo {
+	float:left; 
+	background:url(../figuras/tab3.gif) repeat-x;
+	background-position:0 0;
+	height:100%;
+	color:#2a4a67;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	vertical-align:middle;
+	line-height:32px;
+	padding-left:10px;
+	padding-right:10px;
+}
+.tabBoxLog .bLog2 {
+	float:left; 
+	background:url(../figuras/tab2.gif) no-repeat;
+	background-position:0 0;
+	width:8px; 
+	height:32px;
+}

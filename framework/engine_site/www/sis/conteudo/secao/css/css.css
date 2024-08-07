@@ -1,0 +1,54 @@
+.classConteudo
+{
+	border:solid 1px #999999;
+	background:#E6F2FF;
+	border-right:none;
+	padding:3px;
+}
+
+.classConfig
+{
+	border:solid 1px #999999;
+	background:#E6F2FF;
+	border-left:dashed 1px #999999;
+	padding:3px;
+	width:300px;
+}
+
+.classTitulo
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	background:#D2E4FF;
+	height:30px;
+}
+
+#cTArquivo, #cTGaleriaMidia, #cTEnquete 
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	height:20px;
+}
+
+#cTArquivo td, #cTGaleriaMidia td, #cTEnquete td 
+{ 
+	height:25px;
+	border-bottom:dashed 1px #003366;
+}
+
+#tbRevisoes td
+{
+	height:20px;
+	border-bottom:solid 1px #CCCCCC;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+}
+
+#divRevisoes
+{
+	margin:0;
+	padding:0;
+	overflow:auto;
+	height:100px;
+}

@@ -1,0 +1,115 @@
+<?= $this->getDocType() ?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title><?= $this->getTitulo() ?></title>
+        <?= $this->getMetaCodificacao('ISO-8859-1') ?>        
+        <?= $this->getScript('CSS', UrlBaseSite . 'css/main.css') ?>
+        <?= $this->getScript('JS', UrlBaseSite . 'js/jquery-1.7.2.js') ?>
+        <script type="text/javascript">var UrlBaseSite = '<?= UrlBaseSite ?>'</script>
+        <?= $this->getScript('JS', UrlBaseSite . 'js/main.js') ?>    
+        <?= $this->getScript('JS', $_SESSION['JSBase'].'js/util.js') ?>
+        <?= $this->getScript('JS', $_SESSION['JSBase'].'js/validacao.js') ?>
+        <?= $DADOS->FormValidacoes ?>
+    </head>
+    <body>
+        <div id="todoConteudo">
+            <div id="conteudoPrincipal">
+                <div id="divFormPrincipal">
+                    <span id="spanSuperior">Adicionar componentes</span>
+                    <div id="formPrincipal">                        
+                        <form id="FormManu" name="FormManu" method="POST" action="return false" enctype="multipart/form-data">
+                            
+                            <div id="divConfig">
+                                <table>
+                                    <tr>
+                                        <td class="textoTdForm">Nome da pasta do sistema(<i>meu_site</i>):</td>
+                                        <td><?= $DADOS->FormPrincipal->PastaSistema ?></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="textoTdForm">Nome do módulo:</td>
+                                        <td><?= $DADOS->FormPrincipal->NomeModulo ?></td>
+                                    </tr>
+                                </table>
+                            </div>
+                            
+                            <div id="parteArquivo">
+                                <div id="divOpcoesSelecao">
+                                    <?= $this->getLink('javascript:selecionarTodos(true)','Selecionar todas as opções', 'Selecionar todos', 'linkSelecionarTodos', $Class = NULL) ?>
+                                    <?= $this->getLink('javascript:selecionarTodos(false)','Desmarcar todas as opções', 'Desmarcar todos', 'linkDesmarcarTodos', $Class = NULL) ?>
+                                </div>
+                            <table>
+                                <tr>
+                                    <td><?= $this->getInputCheckBox('checkBoxArquivos',NULL ,'checkBoxArquivos','checkBoxItens', TRUE) ?></td>
+                                    <td class="textoTdForm">Arquivos</td>                                    
+                                </tr>
+                                <tr>
+                                    <td><?= $this->getInputCheckBox('checkBoxClasses',NULL ,'checkBoxClasses','checkBoxItens', TRUE) ?></td>
+                                    <td class="textoTdForm">Classes</td>                                    
+                                </tr>
+                                <tr>
+                                    <td><?= $this->getInputCheckBox('checkBoxAjax',NULL ,'checkBoxAjax','checkBoxItens', TRUE) ?></td>
+                                    <td class="textoTdForm">Ajax</td>                                    
+                                </tr>
+                                <tr>
+                                    <td><?= $this->getInputCheckBox('checkBoxController',NULL ,'checkBoxController','checkBoxItens', TRUE) ?></td>
+                                    <td class="textoTdForm">Controller</td>                                    
+                                </tr>
+                                <tr>
+                                    <td><?= $this->getInputCheckBox('checkBoxCss',NULL ,'checkBoxCss','checkBoxItens', TRUE) ?></td>
+                                    <td class="textoTdForm">Css</td>                                    
+                                </tr>
+                                <tr>
+                                    <td><?= $this->getInputCheckBox('checkBoxForm',NULL ,'checkBoxForm','checkBoxItens', TRUE) ?></td>
+                                    <td class="textoTdForm">Form</td>                                    
+                                </tr>
+                                <tr>
+                                    <td><?= $this->getInputCheckBox('checkBoxJs',NULL ,'checkBoxJs','checkBoxItens', TRUE) ?></td>
+                                    <td class="textoTdForm">Js</td>                                    
+                                </tr>
+                                <tr>
+                                    <td><?= $this->getInputCheckBox('checkBoxModel',NULL ,'checkBoxModel','checkBoxItens', TRUE) ?></td>
+                                    <td class="textoTdForm">Model</td>                                    
+                                </tr>
+                                <tr>
+                                    <td><?= $this->getInputCheckBox('checkBoxViews',NULL ,'checkBoxViews','checkBoxItens', TRUE) ?></td>
+                                    <td class="textoTdForm">Views</td>                                    
+                                </tr>
+                                <tr>
+                                    <td><?= $this->getInputCheckBox('checkBoxIndex',NULL ,'checkBoxIndex','checkBoxItens', TRUE) ?></td>
+                                    <td class="textoTdForm">Index</td>                                    
+                                </tr>
+                            </table>
+                            
+                            <div id="divLayout">
+                                <table>
+                                    <tr>
+                                        <td class="textoTdForm">Layout:</td>
+                                        <td>
+                                            <?= $DADOS->FormPrincipal->Layout ?>
+                                            <?= $this->getInputCheckBox('checkBoxOpcaoLayout',NULL ,'checkBoxOpcaoLayout','', TRUE) ?>
+                                            <span class="textoTdForm">Criar layout(<span class="spanObs"> obs.: Opção inválida caso o layout já exista</span>)</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <?= $this->getLink('javascript:addView()', 'Adicionar View', '+ View', 'linkAddView', $Class = NULL) ?>
+                                        </td>
+                                        <td>
+                                            <?= $DADOS->FormPrincipal->InputAddView ?>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <!-- Div onde ficam as views adicionadas -->
+                                <div id="divViews"></div>
+                            </div>
+                                
+                            </div>
+                            
+                            <?= $DADOS->FormPrincipal->Submit ?>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

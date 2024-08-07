@@ -1,0 +1,175 @@
+
+
+/* CSS Document */
+html
+{
+	height: 100%;
+}
+
+body { margin: 0;   }
+#meio {
+	margin-right:10px;
+	margin-bottom: 15px;
+	margin-left: 10px;
+	border: 0px solid #999;
+	background-color: #FFFFFF;
+	height:90%;
+}
+.groupWrapper
+{
+	width: 100%;
+	min-height: 400px;
+	padding-right:10px;
+	padding-top: 15px;
+}
+.serializer
+{
+	clear: both;
+}
+.groupItem
+{
+	margin-bottom: 20px;
+	border:solid 1px #8db2e3;
+}
+.groupItem .itemHeader
+{
+	line-height: 28px;
+	background-image: url(../figuras/fundo_topo.gif);
+	
+	background-repeat:repeat-x;
+	
+	color: #000;
+	padding: 0 10px;
+	cursor: move;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	position:relative;
+	height: 28px;
+	z-index:101;
+}
+.groupItem .itemHeader #minimizar
+{
+	float:right;
+	font-weight: normal;
+	font-size: 11px;
+	text-decoration: none;
+	position:absolute;
+	right:0;
+	top:0;
+	margin-right:5px;
+	margin-top:5px;
+}
+
+.groupItem .itemHeader #fechar
+{
+	position: absolute;
+	right: 10px;
+	top: 5px;
+	font-weight: normal;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+.sortHelper
+{
+	border: 3px dashed #666;
+	width: auto !important;
+	/*background:#E3EEFD;*/
+}
+
+.itemContent{
+margin:0;
+padding:0;
+}
+.groupItem .conteudomeio{margin:0;
+	padding:0px;
+	height:100px;
+	overflow:auto;
+	font-size:12px;
+	font-family:Arial;
+	padding-top:5px;
+	width:100% !important;
+	
+}
+
+
+/*inicio css menu Icones de Atalhos*/
+#menu_atalhos {
+     font-size: 90%;
+	border: 0;
+	padding: 10px;
+	
+}
+#menu_atalhos ul{
+	width:100%;
+	list-style:none;
+}
+
+#menu_atalhos li { display: inline; padding-right: 10px;   margin-right: 10px;  border-right: #999 1px solid; }
+	
+	
+/*FIM css menu Icones de Atalhos*/
+/*Inicio das Fontes*/
+h3 {
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+h2 {font-size:12px;font-family: Verdana, Arial, Helvetica, sans-serif;}
+/*Fim das Fontes*/
+
+/*Janelas minimizadas*/
+#janelamin {
+	width:149px;
+	margin: 10px;
+	border: 1px solid #999;
+	float: left;
+	position: absolute;
+	left: 833px;
+	top: 48px;
+	background-color: #CCCCCC;
+	height: 1px;
+	display:block;	
+}
+#linkCaixa
+{
+	padding:3px;	
+	width:100%;
+	display:block;
+	border:1px solid #FFFFFF;
+	text-decoration:none;
+	
+}
+.icone {
+	width:9%;
+	float:left;
+	margin-bottom:5px;
+	margin-left: 5px;
+}
+
+
+
+.janelatabela{  background-color:#dce3ee;}
+
+.janelatitulo{ background-color:#dce3ee; font-family:Arial; font-size:11px; color:#042863 }
+.janelatitulo td {  padding-left:5px; border-right-color:#dce3ee; padding-right:20px; margin-left: 7px; margin-right: 7px;  }
+
+.janelaconteudo{ padding-left:4px; font-family:Arial; font-size:11px; border-right-color:#dce3ee; }
+.janelaconteudo td { padding-left:5px; padding-top:2px; padding-bottom:2px; border-right-color:#dce3ee; padding-right:20px; margin-left: 7px; margin-right: 7px; }
+
+
+
+
+.index_texto{ padding:5px;}
+
+
+
+
+.nome {width:58%; float:left; text-align:left; margin-bottom:5px; font-size:12px; font-family:Arial; }
+.complemento {width:25%; float:left; text-align:left; margin-bottom:5px; font-size:12px; font-family:Arial; }
+.nome a {text-decoration:none; 	color:#0b310a;}
+.complemento a {text-decoration:none; 	color:#0b310a;}
+.completo {	width:85%;	float:left;	text-align:left;	margin-bottom:5px;	font-size:12px;	font-family:Arial;}
+.completo a {text-decoration:none; 	color:#0b310a;}
+.minicompleto {	width:15%;	float:left;	text-align:left;	margin-bottom:5px;	font-size:12px;	font-family:Arial;}
+.minicompleto a {text-decoration:none; 	color:#0b310a;}

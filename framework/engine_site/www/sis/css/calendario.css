@@ -1,0 +1,191 @@
+.tituloCalendario {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#1e3d50; 
+}
+.tituloMes {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#1e3d50; 
+}
+
+.tituloDomingo, .tituloSabado {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#1e3d50;
+	font-weight:bold;
+}
+
+.sbd{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+color:#666666;
+}
+
+.atu{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#FF0000;
+}
+
+.DiaEvento
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	background:#FFCC00;
+}
+
+.DiaComum {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	background:#F4F4F4;
+}
+
+.tituloDiaComum {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#1e3d50;
+	font-weight:bold;
+}
+
+a.decora:link {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	color:#000000;
+}
+
+a.decora:active {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	color:#000000;
+}
+
+a.decora:visited {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:none;
+	color:#000000;
+}
+
+a.decora:hover {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-decoration:underline;
+	color:#000000;
+}
+
+/* CSS Document */
+a.linqueCalDom {
+	color:#FF0000; 
+	display:block;
+	padding-top:10px;
+	height:8px;
+	text-decoration:none;
+}
+
+a.linqueCalDia {
+	color:#000000; 
+	display:block;
+	padding-top:10px;
+	height:8x;
+	text-decoration:none;
+}
+
+a.linqueCalSab {
+	color:#003399; 
+	display:block;
+	padding-top:10px;
+	height:8px;
+	text-decoration:none;
+}
+
+a.linqueCalDom:hover 
+{
+	color:#000; 
+	background-color:#FFFFCC;
+}
+
+a.linqueCalDia:hover 
+{
+	color:#000; 
+	background-color:#FFFFCC;
+}
+
+a.linqueCalSab:hover 
+{
+	color:#000; 
+	background-color:#FFFFCC;
+}
+
+.tableCal 
+{
+	border-collapse:collapse;
+}
+
+.diaSemana 
+{
+	font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 10px; color: #FFFFFF; 
+}
+
+.mesAtual 
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	color: #336699;
+}
+
+.dia 
+{
+	font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; 
+}
+
+.domingo 
+{
+	font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #FF0000; 
+}
+
+.sabado 
+{
+	font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #006699; 
+}
+
+.lege 
+{ 
+	color: #006699; 
+	font-family: Tahoma, Arial, Verdana; 
+	font-size: 9px; 
+}
+
+.tituloCal
+{
+	font-family: Tahoma, Arial, Verdana; 
+	font-size: 9px; 
+	font-weight: bold;
+}
+
+.listMes
+{
+	font-size:9px;
+	font-family:Arial, Helvetica, sans-serif;
+	
+}
+
+.legenda1
+{
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#000000;
+	padding-right:15px;
+}
+
+.legenda2
+{
+height:12px;
+width:12px;
+float:left;
+}

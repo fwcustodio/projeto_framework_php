@@ -1,0 +1,1 @@
+altereção no gerador de módulo e nas configurações básicas

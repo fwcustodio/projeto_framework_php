@@ -1,0 +1,79 @@
+body{
+    background: #ececec;
+    margin-top: 5px;
+}
+
+.textoTdForm, span, a{
+    font-size: 12px;
+    font-family: sans-serif; 
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#todoConteudo{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 650px;
+    background-color: white;
+    border: 1px solid #dcdcdc;
+    border-top: 0px;
+}
+#conteudoPrincipal{
+    padding-top: 30px;
+    padding: 20px;
+}
+#spanSuperior{
+    font-size: 14px;
+    font-weight: bold;
+}
+#formPrincipal{
+    margin-top: 30px;
+}
+.obrigatorio{
+    padding-left: 5px;
+    font-size: 11px;
+    color: #d11f01;
+}
+#divLayout, #divViews{
+    margin-left: 5px;    
+}
+#divLayout{
+    margin-top: 10px;
+}
+#divConfig{
+    margin-bottom: 13px;
+}
+.viewItem{
+    margin-left: 50px;
+}
+#parteArquivo, #divConfig{
+    padding: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 1px solid #dcdcdc;
+}
+#divOpcoesSelecao{
+    margin-bottom: 20px;
+}
+#divOpcoesSelecao a{
+    margin-right: 10px;
+}
+#divOpcoesSelecao a:hover{
+    text-decoration:underline; 
+}
+
+.removerView{
+    margin-left: 5px;
+}
+.removerView:hover{
+    cursor: pointer;
+}
+.spanObs{
+    font-size: 10px;
+    font-style: italic;
+    color: #d11f01;
+}
